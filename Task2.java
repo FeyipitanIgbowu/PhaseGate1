@@ -15,13 +15,13 @@ public class Task2 {
 	int thirdInteger = input.nextInt();
 	
 	int sum = firstInteger + secondInteger + thirdInteger;
-	System.out.println(sum);
+	System.out.println("Sum", sum);
 
 	int average = (firstInteger + secondInteger + thirdInteger) / 3;
-	System.out.println(average);
+	System.out.println("Average", average);
 	
 	int product = firstInteger * secondInteger * thirdInteger;
-	System.out.println(product);
+	System.out.println("Product", product);
 
 	int smallest = firstInteger;
 		if (secondInteger < smallest) {
@@ -29,7 +29,7 @@ public class Task2 {
 		} else if (thirdInteger < smallest) {
 			smallest = thirdInteger;
 				}
-	System.out.println(smallest);	
+	System.out.println("Smallest", smallest);	
 		
 	int largest = firstInteger;
 		if (secondInteger > largest) {
@@ -37,7 +37,7 @@ public class Task2 {
 		} else if (thirdInteger > largest) {
 			smallest = thirdInteger;
 				}
-	System.out.println(largest);
+	System.out.println("Largest", largest);
 }
 }
 
