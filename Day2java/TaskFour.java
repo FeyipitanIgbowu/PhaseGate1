@@ -1,4 +1,4 @@
-public class Task3 {
+public class TaskFour {
 	public Boolean(gallons){
 		if (num_of_gallons >= 2){
 		return True

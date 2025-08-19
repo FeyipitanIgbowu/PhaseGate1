@@ -1,6 +1,6 @@
 public class Task3 {
 	public int [] arrayFunction(String name){
-	int [] names = new int[1];
+	String [] names = new int[1];
 		
 	for(String count = name; count < names.length; count++) {
 		if (names.length == 0) {
