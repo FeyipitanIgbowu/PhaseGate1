@@ -2,15 +2,7 @@ const prompt = require('prompt-sync')();
 
 function cardType(cardNumber) {
      if (cardNumber.length >= 13 && cardNumber.length <= 16) {
-        throw new Error("Invalid Card Number");
-    }
-
-     let number = Number(cardNumber);
-   if (isNaN(number)) {
-       throw new Error("Invalid Data Type");
-    }
-   if (number <= 0) {
-       throw new Error("Zero's and Negative numbers are not allowed");
+        return "Invalid Card Number";
     }
 
     if (cardNumber.startsWith("4")) {
